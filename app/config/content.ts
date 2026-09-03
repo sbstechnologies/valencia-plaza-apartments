@@ -713,7 +713,7 @@ export const homePageConfig = {
       category: "Local Eats",
       time: "4 min",
       author: "Valencia Plaza Apartment Homes Team",
-      date: "Aug 20",
+      date: "",
       title: "Must-Try Dining & Local Flavors in Fort Worth",
       desc: "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants near Valencia Plaza Apartment Homes in Fort Worth, Texas.",
     },
@@ -888,12 +888,6 @@ export const gallery: GalleryItem[] = [
     alt: "Community exterior and landscaping",
     category: "Exteriors",
   },
-  {
-    src: images.gallery3,
-    name: "Residential Brick Building",
-    alt: "Residential brick building",
-    category: "Exteriors",
-  },
 
   // ======================================================
   // GALLERY 4–18 — INTERIORS
@@ -995,27 +989,21 @@ export const gallery: GalleryItem[] = [
   // ======================================================
 
   {
-    src: images.gallery19,
+    src: images.gallery20,
     name: "Leasing Office Exterior Entrance",
     alt: "Leasing office exterior entrance",
     category: "Exteriors",
   },
   {
-    src: images.gallery20,
+    src: images.gallery21,
     name: "Covered Carports & Building Exterior",
     alt: "Covered carports and building exterior",
     category: "Exteriors",
   },
   {
-    src: images.gallery21,
+    src: images.gallery22,
     name: "Resident Carports & Parking Lot",
     alt: "Resident carports and parking lot",
-    category: "Exteriors",
-  },
-  {
-    src: images.gallery22,
-    name: "Two-Story Brick Residential Building",
-    alt: "Two-story brick residential building",
     category: "Exteriors",
   },
   {
@@ -1051,7 +1039,7 @@ export const posts: Post[] = [
     readTime: "5 min",
     initials: "VP",
     author: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 15, 2026",
+    date: "",
 
     title: "Exploring Cobblestone Trail & Local Fort Worth Parks",
 
@@ -1076,7 +1064,7 @@ export const posts: Post[] = [
     readTime: "4 min",
     initials: "VP",
     author: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 12, 2026",
+    date: "",
 
     title: "Quick Escapes Trinity Trails & Lake Arlington",
 
@@ -1101,7 +1089,7 @@ export const posts: Post[] = [
     readTime: "4 min",
     initials: "VP",
     author: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 10, 2026",
+    date: "",
 
     title: "Sundance Square to Arlington Entertainment",
 
@@ -1126,7 +1114,7 @@ export const posts: Post[] = [
     readTime: "5 min",
     initials: "VP",
     author: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 5, 2026",
+    date: "",
 
     title: "The Perks of Condo-Style Living at Valencia Plaza",
 
@@ -1151,7 +1139,7 @@ export const posts: Post[] = [
     readTime: "4 min",
     initials: "VP",
     author: "Valencia Plaza Apartment Homes Team",
-    date: "Jul 28, 2026",
+    date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Fort Worth",
 
@@ -1179,7 +1167,7 @@ export const featuredPost: Post = {
   readTime: "4 min",
   initials: "VP",
   author: "Valencia Plaza Apartment Homes Team",
-  date: "Aug 20, 2026",
+  date: "",
 
   title: "Must-Try Dining & Local Flavors in East Fort Worth",
 
@@ -1211,7 +1199,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 20",
+    date: "",
 
     title: "Must-Try Dining & Local Flavors in East Fort Worth",
 
@@ -1229,7 +1217,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 15",
+    date: "",
 
     title: "Exploring Cobblestone Trail & Local Fort Worth Parks",
 
@@ -1247,7 +1235,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 12",
+    date: "",
 
     title: "Quick Escapes Trinity Trails & Lake Arlington",
 
@@ -1265,7 +1253,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 10",
+    date: "",
 
     title: "Sundance Square to Arlington Entertainment",
 
@@ -1283,7 +1271,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Aug 5",
+    date: "",
 
     title: "The Perks of Condo-Style Living at Valencia Plaza",
 
@@ -1301,7 +1289,7 @@ export const articles = [
     authorInitials: "VP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
     authorName: "Valencia Plaza Apartment Homes Team",
-    date: "Jul 28",
+    date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Fort Worth",
 
