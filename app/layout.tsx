@@ -309,7 +309,11 @@ const apartmentSchema = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={instrumentSerif.variable}>
+    <html
+      lang="en"
+      data-scroll-behavior="smooth"
+      className={instrumentSerif.variable}
+    >
       <body className="min-h-screen font-sans antialiased">
         {/* Google Tag Manager */}
         {process.env.NODE_ENV === "production" &&
