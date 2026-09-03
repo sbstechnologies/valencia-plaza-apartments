@@ -110,7 +110,7 @@ export async function POST(req: Request) {
       "info@livenjoymgt.com",
     ];
     if (resident === "Future Resident") {
-      toRecipients.push("sbstechnololgies.in@gmail.com");
+      toRecipients.push("valencia-plaza@rentbamboo.ai");
     }
 
     const ccRecipients: string[] = [];
@@ -404,16 +404,16 @@ export async function POST(req: Request) {
         font-weight:700;
       "
     >
-      Valencia Plaza Apartments Homes
+      Valencia Plaza Apartment Homes 
     </div>
 
 <div style="margin-top:8px;">
-  1900 Estrada Pkwy,<br />
-  Irving, TX 75061
+  7050 John T White Rd, <br />
+  Fort Worth, TX 76120
 </div>
 
 <div style="margin-top:6px;">
-  📞 (903) 892-0188
+  📞 (817) 446-7470
 </div>
 
 <div style="margin-top:6px;">
@@ -427,7 +427,7 @@ export async function POST(req: Request) {
 
     <div style="margin-top:10px;">
       © ${new Date().getFullYear()}
-      Valencia Plaza Apartments Homes.
+      Valencia Plaza Apartment Homes .
       All Rights Reserved.
     </div>
 

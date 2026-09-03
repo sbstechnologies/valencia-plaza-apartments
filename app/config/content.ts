@@ -1,5 +1,5 @@
 // ======================================================
-// Valencia Plaza Apartments Homes
+// Valencia Plaza Apartment Homes
 // IMAGE CONFIGURATION
 // ======================================================
 
@@ -233,15 +233,15 @@ export const images = {
   amenities5: "/images/gallery/22.webp",
   amenities6: "/images/amenities/6.webp",
   amenities_alt1:
-    "10-foot ceilings and open layouts at Valencia Plaza Apartments Homes",
+    "10-foot ceilings and open layouts at Valencia Plaza Apartment Homes ",
   amenities_alt2:
-    "Building intercom entry system at Valencia Plaza Apartments Homes",
-  amenities_alt3: "Cozy in-unit fireplace at Valencia Plaza Apartments Homes",
+    "Building intercom entry system at Valencia Plaza Apartment Homes ",
+  amenities_alt3: "Cozy in-unit fireplace at Valencia Plaza Apartment Homes ",
   amenities_alt4:
-    "Full washer and dryer connections at Valencia Plaza Apartments Homes",
-  amenities_alt5: "Reserved covered parking at Valencia Plaza Apartments Homes",
+    "Full washer and dryer connections at Valencia Plaza Apartment Homes ",
+  amenities_alt5: "Reserved covered parking at Valencia Plaza Apartment Homes ",
   amenities_alt6:
-    "Semi-private entry foyers at Valencia Plaza Apartments Homes",
+    "Semi-private entry foyers at Valencia Plaza Apartment Homes ",
 
   // ======================================================
   // FLOOR PLAN IMAGES
@@ -250,10 +250,10 @@ export const images = {
   floor2: "/images/plan/2/2.webp",
 
   floor_alt1:
-    "Two bedroom apartment floor plan at Valencia Plaza Apartments Homes",
+    "Two bedroom apartment floor plan at Valencia Plaza Apartment Homes ",
 
   floor_alt2:
-    "Two bedroom apartment with den floor plan at Valencia Plaza Apartments Homes",
+    "Two bedroom apartment with den floor plan at Valencia Plaza Apartment Homes ",
 
   // ======================================================
   // BLOG IMAGES
@@ -280,7 +280,7 @@ export const images = {
 // SITE CONFIG
 // ======================================================
 export const siteConfig = {
-  name: "Valencia Plaza Apartments Homes",
+  name: "Valencia Plaza Apartment Homes ",
   shortName: "Valencia Plaza",
 
   copyrightYear: "2026",
@@ -594,7 +594,7 @@ export const homePageConfig = {
   keyDestinations: [
     {
       icon: "🏠",
-      title: "Valencia Plaza Apartments Homes",
+      title: "Valencia Plaza Apartment Homes ",
       subtitle: "Home Base · Your New Home",
       badge: "Your Home",
       distance: "0 mi",
@@ -693,7 +693,7 @@ export const homePageConfig = {
       years: "1,000–1,250 sq ft",
       initials: "VP",
       rating: 5,
-      text: "Enjoy spacious two-bedroom apartment homes at Valencia Plaza Apartments Homes. Choose from comfortable floor plans, including two-bedroom homes with flexible living spaces. Contact the leasing team to learn more about current availability and pricing.",
+      text: "Enjoy spacious two-bedroom apartment homes at Valencia Plaza Apartment Homes . Choose from comfortable floor plans, including two-bedroom homes with flexible living spaces. Contact the leasing team to learn more about current availability and pricing.",
     },
 
     {
@@ -722,7 +722,7 @@ export const homePageConfig = {
   finalCta: {
     label: "Ready to Find Your Home?",
 
-    title: "Make Valencia Plaza Apartments Homes",
+    title: "Make Valencia Plaza Apartment Homes ",
 
     italicTitle: "Your New Home",
 
@@ -1138,7 +1138,7 @@ export const posts: Post[] = [
     content: [
       "Condo-style living offers the comfort of a thoughtfully designed home with spacious living areas and convenient community amenities.",
 
-      "At Valencia Plaza Apartments Homes, open layouts provide comfortable spaces to relax, entertain, and enjoy everyday life.",
+      "At Valencia Plaza Apartment Homes , open layouts provide comfortable spaces to relax, entertain, and enjoy everyday life.",
 
       "Private patios and balconies add outdoor living space, while features such as 10-foot ceilings and in-unit fireplaces create an inviting atmosphere.",
 
@@ -1184,7 +1184,7 @@ export const featuredPost: Post = {
   title: "Must-Try Dining & Local Flavors in East Fort Worth",
 
   description:
-    "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around East Fort Worth near Valencia Plaza Apartments Homes.",
+    "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around East Fort Worth near Valencia Plaza Apartment Homes .",
 
   img: images.blog1,
 
@@ -1216,7 +1216,7 @@ export const articles = [
     title: "Must-Try Dining & Local Flavors in East Fort Worth",
 
     description:
-      "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around East Fort Worth near Valencia Plaza Apartments Homes.",
+      "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants around East Fort Worth near Valencia Plaza Apartment Homes .",
 
     image: "/images/blog/1.webp",
   },

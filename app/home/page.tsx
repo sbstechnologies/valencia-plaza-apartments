@@ -434,7 +434,7 @@ export default function Home() {
           <div className="h-[350px] w-full overflow-hidden rounded-2xl sm:h-[450px] lg:h-[550px]">
             <iframe
               src={`https://www.google.com/maps?q=${encodeURIComponent(
-                `Valencia Plaza Apartments Homes, ${siteConfig.address}`,
+                `Valencia Plaza Apartment Homes , ${siteConfig.address}`,
               )}&output=embed`}
               title="Valencia Plaza Apartment Homes location map"
               className="h-[350px] w-full border-0 md:h-[450px]"

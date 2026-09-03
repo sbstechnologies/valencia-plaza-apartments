@@ -59,7 +59,7 @@ export default function Contact() {
 
                 <div>
                   <h3 className="text-[18px] font-semibold text-[#1f2937]">
-                    Valencia Plaza Apartments Homes
+                    Valencia Plaza Apartment Homes
                   </h3>
 
                   <p className="mt-1 text-[16px] leading-[1.6] text-[#4b5563]">
@@ -169,7 +169,7 @@ export default function Contact() {
               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl lg:aspect-[16/8]">
                 <iframe
                   src={`https://www.google.com/maps?q=${encodeURIComponent(
-                    `Valencia Plaza Apartments Homes, ${siteConfig.address}`,
+                    `Valencia Plaza Apartment Homes , ${siteConfig.address}`,
                   )}&output=embed`}
                   title="Valencia Plaza Apartment Homes location map"
                   className="h-[350px] w-full border-0 md:h-[450px]"
@@ -191,7 +191,7 @@ export default function Contact() {
 
                   <div>
                     <h3 className="text-[18px] font-semibold text-[#1f2937]">
-                      Valencia Plaza Apartments Homes
+                      Valencia Plaza Apartment Homes
                     </h3>
 
                     <p className="mt-1 text-[12px] leading-[1.6] text-[#4b5563]">

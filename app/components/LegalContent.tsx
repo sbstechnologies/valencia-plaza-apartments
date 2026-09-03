@@ -54,7 +54,7 @@ export default function LegalContent() {
           Your privacy and informed consent are important to us. This Privacy
           Policy explains how{" "}
           <strong className="font-semibold text-[#232323]">
-            Valencia Plaza Apartments Homes
+            Valencia Plaza Apartment Homes
           </strong>{" "}
           and{" "}
           <strong className="font-semibold text-[#232323]">
@@ -389,11 +389,11 @@ export default function LegalContent() {
         </motion.h1>
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-5">
-          Welcome to Valencia Plaza Apartments Homes. By accessing and using
+          Welcome to Valencia Plaza Apartment Homes . By accessing and using
           this website, you agree to comply with and be bound by the following
           terms and conditions of use, which govern the relationship between{" "}
           <strong className="font-semibold text-[#232323]">
-            Valencia Plaza Apartments Homes
+            Valencia Plaza Apartment Homes
           </strong>{" "}
           and{" "}
           <strong className="font-semibold text-[#232323]">
@@ -468,7 +468,7 @@ export default function LegalContent() {
         </motion.p>
 
         <motion.p className="font-[Plus_Jakarta_Sans] text-[18px] font-normal leading-[1.9] tracking-[0.01em] text-[#4B4B4B] mb-5">
-          Neither Valencia Plaza Apartments Homes, LiveNJoy Management, nor any
+          Neither Valencia Plaza Apartment Homes , LiveNJoy Management, nor any
           third parties provide any warranty or guarantee regarding the absolute
           accuracy, completeness, or timeliness of the information displayed on
           this website. All{" "}

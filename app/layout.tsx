@@ -9,6 +9,8 @@ import "@/app/globals.css";
 
 import DisableInspect from "@/app/components/DisableInspect";
 import SmoothScroll from "@/app/components/SmoothScroll";
+import CookieConsent from "./components/CookieConsent";
+import Script from "next/script";
 
 /* =========================================================
    SITE CONFIG
@@ -18,7 +20,7 @@ const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://valenciaplazaapts.com";
 
 const COMPANY_NAME =
-  process.env.NEXT_PUBLIC_COMPANY_NAME ?? "Valencia Plaza Apartments Homes";
+  process.env.NEXT_PUBLIC_COMPANY_NAME ?? "Valencia Plaza Apartment Homes ";
 
 const PHONE = process.env.NEXT_PUBLIC_PHONE ?? "8174467470";
 
@@ -36,6 +38,8 @@ const ZIP = process.env.NEXT_PUBLIC_ZIP ?? "76120";
 const OG_IMAGE = `/images/logo.png`;
 
 const FULL_PHONE = `+1${PHONE}`;
+
+const clarityId = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID;
 
 /* =========================================================
    DISPLAY FONT
@@ -68,14 +72,14 @@ export const metadata: Metadata = {
 
   title: {
     default: "Valencia Plaza Apartment Homes | Apartments in Fort Worth, TX",
-    template: "%s | Valencia Plaza Apartments Homes",
+    template: "%s | Valencia Plaza Apartment Homes ",
   },
 
   description:
     "Discover Valencia Plaza Apartment Homes in Fort Worth, Texas. Explore comfortable 2 bedroom apartment homes, floor plans, community amenities, pricing, and leasing options.",
 
   keywords: [
-    "Valencia Plaza Apartments Homes",
+    "Valencia Plaza Apartment Homes ",
     "Valencia Plaza Apartments",
     "Valencia Plaza Apartments Fort Worth TX",
     "Fort Worth Apartments",
@@ -158,7 +162,7 @@ export const metadata: Metadata = {
     title: "Valencia Plaza Apartment Homes | Apartments in Fort Worth, TX",
 
     description:
-      "Explore 2 bedroom apartments, floor plans, community amenities, pricing, and convenient living at Valencia Plaza Apartments Homes.",
+      "Explore 2 bedroom apartments, floor plans, community amenities, pricing, and convenient living at Valencia Plaza Apartment Homes .",
 
     images: [OG_IMAGE],
   },
@@ -313,9 +317,25 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID} />
           )}
 
+        {clarityId && (
+          <Script id="microsoft-clarity" strategy="afterInteractive">
+            {`
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);
+                t.async=1;
+                t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "${clarityId}");
+            `}
+          </Script>
+        )}
+
         {/* Structured Data */}
-        <script
+        <Script
           type="application/ld+json"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(apartmentSchema).replace(/</g, "\\u003c"),
           }}
@@ -324,8 +344,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* Production Protection */}
         {process.env.NODE_ENV === "production" && <DisableInspect />}
 
+        <Script
+          id="rentbamboo-charles"
+          src="https://charles.rentbamboo.com/w"
+          data-client-id="bamboo_ipwo8yj1"
+          data-position="right"
+          data-color="#1E3872"
+        />
+
         {/* Smooth Scroll */}
         <SmoothScroll />
+        <CookieConsent />
 
         {/* Application */}
         {children}

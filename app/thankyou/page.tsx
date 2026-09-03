@@ -60,7 +60,7 @@ export default function Contact() {
 
                 <div>
                   <h3 className="text-[18px] font-semibold text-[#1f2937]">
-                    Valencia Plaza Apartments Homes
+                    Valencia Plaza Apartment Homes
                   </h3>
 
                   <p className="mt-1 text-[16px] leading-[1.6] text-[#4b5563]">
