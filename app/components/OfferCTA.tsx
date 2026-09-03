@@ -20,7 +20,7 @@ export default function OfferCTA({ phone, tel }: OfferCTAProps) {
           <p className="mt-3 font-[Plus_Jakarta_Sans] text-[17px] text-white md:text-[18px]">
             Two-Bedroom Floor Plans starting{" "}
             <span className="font-bold">at $1,199/mo </span> with{" "}
-            <span className="font-bold">$99 App & Admin</span>
+            <span className="font-bold">$99 App & Admin Fee!</span>
           </p>
         </div>
 

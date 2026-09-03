@@ -294,7 +294,7 @@ export default function LeasePortal() {
               }`}
             >
               <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.08)]">
-                <span className="font-[Instrument_Serif] text-[13px] text-[#1e3872]">
+                <span className="font-[Instrument_Serif] text-[13px] text-[#1e3872] text-center">
                   {unit.code}
                 </span>
               </div>

@@ -230,7 +230,7 @@ export const images = {
   amenities2: "/images/amenities/2.webp",
   amenities3: "/images/amenities/3.webp",
   amenities4: "/images/amenities/4.webp",
-  amenities5: "/images/amenities/5.webp",
+  amenities5: "/images/gallery/22.webp",
   amenities6: "/images/amenities/6.webp",
   amenities_alt1:
     "10-foot ceilings and open layouts at Valencia Plaza Apartments Homes",
@@ -344,16 +344,16 @@ export const tourSlots = [
 
 export const footerLocation = [
   {
-    label: "Fairview Park",
-    distance: "1.1 mi",
+    label: "Cobblestone Trail Park",
+    distance: "1.6 mi",
   },
   {
-    label: "Downtown Fort Worth",
-    distance: "2.1 mi",
+    label: "Eastchase Shopping Center",
+    distance: "2.3 mi",
   },
   {
-    label: "Fort Worth Town Center",
-    distance: "2.8 mi",
+    label: "AT&T Stadium / Arlington District",
+    distance: "7.8 mi",
   },
 ];
 
@@ -364,7 +364,7 @@ export const footerLocation = [
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK. LEASE. SAVE.",
-  text: "1 & 2-Bedroom Specials – Huge Savings 1BR from $799 · $99 App & Admin Fee",
+  text: "2-Bedroom Floor Plan  starting at $1,199 · $99 App & Admin Fee! Limited Time Offer.",
 };
 
 // ======================================================
@@ -759,17 +759,17 @@ export const plans = {
 } as const;
 
 export const interiorPhotos = {
-  "Living Room": images.home4,
-  Bedroom: images.home10,
-  Kitchen: images.home13,
-  Bathroom: images.home16,
+  "Living Room": images.gallery4,
+  Bedroom: images.gallery10,
+  Kitchen: images.gallery13,
+  Bathroom: images.gallery16,
 } as const;
 
 export const amenityPhotos = {
-  Pool: images.home1,
-  "Car Parking": images.home22,
-  "Dog Park": images.home3,
-  Playground: images.home2,
+  Pool: images.gallery1,
+  "Car Parking": images.gallery22,
+  "Green Spaces": images.gallery24,
+  "Intercom Entry": images.gallery20,
 } as const;
 
 export const defaultPreviewImg = images.home14;
@@ -785,8 +785,8 @@ export type PreviewCategory =
 export type AmenityCategory =
   | "Pool"
   | "Car Parking"
-  | "Dog Park"
-  | "Playground";
+  | "Green Spaces"
+  | "Intercom Entry";
 
 // ======================================================
 // FLOOR PLANS
@@ -873,183 +873,156 @@ export type GalleryItem = {
 
 export const gallery: GalleryItem[] = [
   // ======================================================
-  // GALLERY 1–3 — EXTERIORS
+  // GALLERY 1–3 — AMENITIES & EXTERIORS
   // ======================================================
 
   {
     src: images.gallery1,
-    name: "",
-    alt: "",
+    name: "Swimming Pool & Sundeck",
+    alt: "Swimming pool and sundeck",
     category: "Amenities",
   },
-
   {
     src: images.gallery2,
-    name: "",
-    alt: "",
+    name: "Community Exterior & Landscaping",
+    alt: "Community exterior and landscaping",
     category: "Exteriors",
   },
-
   {
     src: images.gallery3,
-    name: "",
-    alt: "",
+    name: "Residential Brick Building",
+    alt: "Residential brick building",
     category: "Exteriors",
   },
 
   // ======================================================
-  // GALLERY 4–19 — INTERIORS
+  // GALLERY 4–18 — INTERIORS
   // ======================================================
 
   {
     src: images.gallery4,
-    name: "",
-    alt: "",
+    name: "Carpeted Living Room & Patio Entry",
+    alt: "Carpeted living room and patio entry",
     category: "Interiors",
   },
-
   {
     src: images.gallery5,
-    name: "",
-    alt: "",
+    name: "Living Room with Fireplace & Pass-Through",
+    alt: "Living room with fireplace and pass-through",
     category: "Interiors",
   },
-
   {
     src: images.gallery6,
-    name: "",
-    alt: "",
+    name: "Bathroom Vanity & Dressing Mirror",
+    alt: "Bathroom vanity and dressing mirror",
     category: "Interiors",
   },
-
   {
     src: images.gallery7,
-    name: "",
-    alt: "",
+    name: "Galley Kitchen with Black Appliances",
+    alt: "Galley kitchen with black appliances",
     category: "Interiors",
   },
-
   {
     src: images.gallery8,
-    name: "",
-    alt: "",
+    name: "Kitchen Countertops & Range",
+    alt: "Kitchen countertops and range",
     category: "Interiors",
   },
-
   {
     src: images.gallery9,
-    name: "",
-    alt: "",
+    name: "Dining Area & Patio Door",
+    alt: "Dining area and patio door",
     category: "Interiors",
   },
-
   {
     src: images.gallery10,
-    name: "",
-    alt: "",
+    name: "Spacious Bedroom with Window",
+    alt: "Spacious bedroom with window",
     category: "Interiors",
   },
-
   {
     src: images.gallery11,
-    name: "",
-    alt: "",
+    name: "Wood-Style Living Room with Fireplace",
+    alt: "Wood-style living room with fireplace",
     category: "Interiors",
   },
-
   {
     src: images.gallery12,
-    name: "",
-    alt: "",
+    name: "Open-Concept Living & Dining Room",
+    alt: "Open-concept living and dining room",
     category: "Interiors",
   },
-
   {
     src: images.gallery13,
-    name: "",
-    alt: "",
+    name: "Upgraded Kitchen with Granite Countertops",
+    alt: "Upgraded kitchen with granite countertops",
     category: "Interiors",
   },
-
   {
     src: images.gallery14,
-    name: "",
-    alt: "",
+    name: "Living Area & Kitchen Pass-Through",
+    alt: "Living area and kitchen pass-through",
     category: "Interiors",
   },
-
   {
     src: images.gallery15,
-    name: "",
-    alt: "",
+    name: "Wood-Style Living Room & Patio View",
+    alt: "Wood-style living room and patio view",
     category: "Interiors",
   },
-
   {
     src: images.gallery16,
-    name: "",
-    alt: "",
+    name: "Modern Bathroom & Shower Suite",
+    alt: "Modern bathroom and shower suite",
     category: "Interiors",
   },
-
   {
     src: images.gallery17,
-    name: "",
-    alt: "",
+    name: "Modern Bedroom with Wood-Style Floors",
+    alt: "Modern bedroom with wood-style floors",
+    category: "Interiors",
+  },
+  {
+    src: images.gallery18,
+    name: "Living Room & Breakfast Nook",
+    alt: "Living room and breakfast nook",
     category: "Interiors",
   },
 
-  {
-    src: images.gallery18,
-    name: "",
-    alt: "",
-    category: "Interiors",
-  },
+  // ======================================================
+  // GALLERY 19–23 — EXTERIORS
+  // ======================================================
 
   {
     src: images.gallery19,
-    name: "",
-    alt: "",
-    category: "Interiors",
+    name: "Leasing Office Exterior Entrance",
+    alt: "Leasing office exterior entrance",
+    category: "Exteriors",
   },
-
-  // ======================================================
-  // GALLERY 20–24 — AMENITIES
-  // ======================================================
-
   {
     src: images.gallery20,
-    name: "",
-    alt: "",
-    category: "Amenities",
+    name: "Covered Carports & Building Exterior",
+    alt: "Covered carports and building exterior",
+    category: "Exteriors",
   },
-
   {
     src: images.gallery21,
-    name: "",
-    alt: "",
+    name: "Resident Carports & Parking Lot",
+    alt: "Resident carports and parking lot",
     category: "Exteriors",
   },
-
   {
     src: images.gallery22,
-    name: "",
-    alt: "",
+    name: "Two-Story Brick Residential Building",
+    alt: "Two-story brick residential building",
     category: "Exteriors",
   },
-
   {
     src: images.gallery23,
-    name: "",
-    alt: "",
+    name: "Landscaped Community Building",
+    alt: "Landscaped community building",
     category: "Exteriors",
-  },
-
-  {
-    src: images.gallery24,
-    name: "",
-    alt: "",
-    category: "Neighborhood",
   },
 ];
 // ======================================================

@@ -318,11 +318,11 @@ export default function Home() {
             </div>
             <div className="md:flex md:items-center">
               <p className="font-[Plus_Jakarta_Sans] text-[15px] sm:text-[16px] md:text-[19px] leading-[1.75] text-[#9faac0] max-w-[680px]">
-                Our curated collection of amenities ensures that every day at
-                Valencia Plaza Park feels effortless. Unwind by our sparkling
-                swimming pool, take your dog to the fenced Bark Park, enjoy
-                family time at the on-site playground, or take advantage of the
-                convenient resident laundry center and outdoor grilling areas.
+                Experience the comfort of quiet, condo-style living at Valencia
+                Plaza. From semi-private building foyers and reserved covered
+                parking to high 10-foot ceilings, wood-burning fireplaces, and
+                convenient in-unit washer/dryer connections, every feature is
+                tailored for effortless everyday living.
               </p>
             </div>
           </div>
@@ -411,18 +411,18 @@ export default function Home() {
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[Instrument_Serif] text-[#2d3230] leading-[1.2]">
               Discover The <br />
-              Best Of FORT WORTH.
+              Best Of Fort Worth & DFW.
             </h2>
           </div>
 
           {/* Description */}
           <div className="lg:pl-8 xl:pl-12">
             <p className="font-[Plus_Jakarta_Sans] text-sm md:text-base text-[#5a6260] text-justify leading-relaxed max-w-xxl">
-              Valencia Plaza Park places you in a connected FORT WORTH location
+              Valencia Plaza places you in a connected East Fort Worth location
               surrounded by local dining, retail hubs, and outdoor recreation.
-              Enjoy seamless everyday commutes along US-75 and Highway 82,
-              bringing Downtown FORT WORTH, Austin College, and the shores of
-              Lake Texoma right to your fingertips.
+              Enjoy seamless everyday commutes with instant access to I-30 and
+              Loop 820, bringing Downtown Fort Worth, Sundance Square, and the
+              Arlington Entertainment District right to your fingertips.
             </p>
           </div>
         </div>
@@ -1073,7 +1073,7 @@ export default function Home() {
           <h2
             className={`${instrumentSerif.className} text-[clamp(2rem,5vw,4.2rem)] font-normal leading-[1.06] tracking-[-0.03em] text-[#f5f2ed] mb-5 max-w-[1920px] mx-auto`}
           >
-            Make Valencia Plaza Park
+            Make Valencia Plaza
             <br />
             <span className="text-[rgba(245,242,237,0.6)] italic">
               Your Home

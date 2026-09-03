@@ -30,8 +30,8 @@ const photoCategories = [
 const amenityCategories = [
   "Pool",
   "Car Parking",
-  "Dog Park",
-  "Playground",
+  "Green Spaces",
+  "Intercom Entry",
 ] as const;
 
 type BedroomType = "1bed" | "2bed";
@@ -239,8 +239,8 @@ export default function UnitOverview({
     () => ({
       Pool: images.gallery1,
       "Car Parking": images.gallery22,
-      "Dog Park": images.gallery3,
-      Playground: images.gallery2,
+      "Green Spaces": images.gallery24,
+      "Intercom Entry": images.gallery20,
     }),
     [images],
   );
@@ -329,43 +329,44 @@ export default function UnitOverview({
           </div>
 
           <p className="max-w-[760px] font-[Plus_Jakarta_Sans] text-[15px] leading-relaxed text-[#5a6260] sm:text-base md:pt-2 md:text-[18px]">
-            Discover comfortable floor plans, community amenities, and
-            convenient apartment living at {siteConfig.name} in {location}.
+            Explore your future home with detailed floor plans, interior
+            community photographs.
           </p>
         </div>
 
         {/* PROMOTION */}
-        <div className="mt-8 flex flex-col gap-4 rounded-[16px] bg-gradient-to-br from-[#e09428] to-[#c87818] p-4 shadow-[0_4px_28px_rgba(224,148,40,0.45)] sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:p-[14px_24px]">
-          <div className="flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
-            <div className="w-fit rounded-full border border-[#f5f2ee]/35 bg-[#f5f2ee]/20 px-3 py-1">
-              <span className="font-[Plus_Jakarta_Sans] text-[10px] font-bold uppercase tracking-[0.14em] text-[#f5f2ee]">
-                Look &amp; Lease Special
-              </span>
-            </div>
-
-            <div className="flex flex-wrap gap-2">
-              <span className="px-1 font-[Instrument_Serif] text-[20px] leading-none tracking-[-0.02em] text-[#f5f2ee]">
-                Special Promotion
-              </span>
-
-              {availableBedroomTypes.map((type) => (
-                <span
-                  key={type}
-                  className="rounded-full bg-[#f5f2ee]/15 px-3 py-1 font-[Plus_Jakarta_Sans] text-xs font-semibold text-[#f5f2ee]/90 sm:text-[13px]"
-                >
-                  {type === "1bed" ? "1BR" : "2BR"} from{" "}
-                  {bedroomPricing[type].replace("/mo", "")}
-                </span>
-              ))}
-            </div>
+        <div className="mt-8 flex w-full items-center gap-4 overflow-hidden rounded-[16px] bg-gradient-to-r from-[#e09428] to-[#c87818] px-5 py-3 shadow-[0_4px_28px_rgba(224,148,40,0.45)]">
+          {/* Look & Lease */}
+          <div className="shrink-0 rounded-full border border-[#f5f2ee]/35 bg-[#f5f2ee]/10 px-4 py-1.5">
+            <span className="whitespace-nowrap font-[Plus_Jakarta_Sans] text-[11px] font-semibold uppercase tracking-[0.14em] text-[#f5f2ee]">
+              Look &amp; Lease Special
+            </span>
           </div>
 
+          {/* Title + Specials */}
+          <div className="flex min-w-0 flex-1 items-center gap-3">
+            <span className="whitespace-nowrap font-[Instrument_Serif] text-[21px] leading-none tracking-[-0.02em] text-[#f5f2ee]">
+              Two-Bedroom Specials - Huge Savings
+            </span>
+
+            <span className="shrink-0 rounded-full bg-[#f5f2ee]/15 px-4 py-2 font-[Plus_Jakarta_Sans] text-[13px] font-semibold text-[#f5f2ee]">
+              2BR from $1,199
+            </span>
+
+            <span className="shrink-0 rounded-full bg-[#f5f2ee]/15 px-4 py-2 font-[Plus_Jakarta_Sans] text-[13px] font-semibold text-[#f5f2ee]">
+              $99 App &amp; Admin Fee
+            </span>
+          </div>
+
+          {/* Phone */}
           <a
             href={`tel:${phone.replace(/[^0-9+]/g, "")}`}
             aria-label={`Call ${siteConfig.name} at ${phone}`}
-            className="inline-flex w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#f5f2ee] px-5 py-2.5 font-[Plus_Jakarta_Sans] text-[13px] font-bold text-[#a85e48] shadow-[0_2px_12px_rgba(0,0,0,0.14)] transition-transform active:scale-[0.98]"
+            className="inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#f5f2ee] px-6 py-2.5 font-[Plus_Jakarta_Sans] text-[14px] font-bold text-[#a85e48] shadow-[0_2px_12px_rgba(0,0,0,0.14)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
           >
-            <span aria-hidden="true">☎</span>
+            <span aria-hidden="true" className="text-[16px]">
+              ☎
+            </span>
             {phone}
           </a>
         </div>
