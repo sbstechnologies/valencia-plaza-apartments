@@ -54,6 +54,15 @@ export default function TourScheduler({ open, onClose }: TourSchedulerProps) {
         </button>
 
         {/* Scheduler */}
+        <iframe
+          src="https://charles.rentbamboo.com/embed/schedule?clientId=bamboo_ipwo8yj1&color=1E3872&
+propertyId=2de0be54-dc75-4270-a909-ba736fbc24ac"
+          width="100%"
+          height="720"
+          className="h-full w-full border-0"
+          loading="lazy"
+          title="Schedule a tour"
+        ></iframe>
       </div>
     </div>
   );
