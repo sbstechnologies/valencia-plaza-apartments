@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import type { MouseEvent } from "react";
 import TourScheduler from "@/app/components/TourScheduler";
-import { siteConfig } from "../config/content";
+import { floorPlansSpecial, siteConfig } from "../config/content";
 
 const bedroomPlans: Record<BedroomType, string[]> = {
   "1bed": [],
@@ -335,41 +335,42 @@ export default function UnitOverview({
         </div>
 
         {/* PROMOTION */}
-        <div className="mt-8 flex w-full flex-col gap-3 overflow-hidden rounded-[16px] bg-gradient-to-r from-[#e09428] to-[#c87818] p-4 shadow-[0_4px_28px_rgba(224,148,40,0.45)] sm:p-5 lg:flex-row lg:items-center lg:gap-4 lg:px-5 lg:py-3">
-          {/* Look & Lease */}
-          <div className="w-fit shrink-0 rounded-full border border-[#f5f2ee]/35 bg-[#f5f2ee]/10 px-4 py-1.5">
-            <span className="whitespace-nowrap font-[Plus_Jakarta_Sans] text-[10px] font-semibold uppercase tracking-[0.12em] text-[#f5f2ee] sm:text-[11px] sm:tracking-[0.14em]">
-              Look &amp; Lease Special
-            </span>
-          </div>
 
-          {/* Title + Specials */}
-          <div className="flex min-w-0 flex-1 flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-2.5 lg:gap-3">
-            <span className="font-[Instrument_Serif] text-[20px] leading-tight tracking-[-0.02em] text-[#f5f2ee] sm:text-[21px] lg:whitespace-nowrap">
-              Two-Bedroom Specials - Huge Savings
-            </span>
+        {/* =====================================================
+            PROMOTION
+        ===================================================== */}
 
-            <div className="flex min-w-0 flex-wrap gap-2">
-              <span className="w-fit shrink-0 rounded-full bg-[#f5f2ee]/15 px-3 py-1.5 font-[Plus_Jakarta_Sans] text-[12px] font-semibold text-[#f5f2ee] sm:px-4 sm:py-2 sm:text-[13px]">
-                2BR from $1,199
+        <div className="mt-8 flex flex-col gap-4 rounded-[16px] bg-gradient-to-br from-[#e09428] to-[#c87818] p-4 shadow-[0_4px_28px_rgba(224,148,40,0.45)] sm:flex-row sm:items-center sm:justify-between sm:p-[14px_24px]">
+          <div className="flex min-w-0 flex-1 flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+            <div className="w-fit shrink-0 rounded-full border border-[#f5f2ee]/35 bg-[#f5f2ee]/20 px-3 py-1">
+              <span className="font-[Plus_Jakarta_Sans] text-[10px] font-bold uppercase tracking-[0.14em] text-[#f5f2ee]">
+                {floorPlansSpecial.badge}
+              </span>
+            </div>
+
+            <div className="flex min-w-0 flex-wrap items-center gap-2">
+              <span className="px-1 font-[Instrument_Serif] text-[20px] leading-none tracking-[-0.02em] text-[#f5f2ee]">
+                {floorPlansSpecial.headline}
               </span>
 
-              <span className="w-fit shrink-0 rounded-full bg-[#f5f2ee]/15 px-3 py-1.5 font-[Plus_Jakarta_Sans] text-[12px] font-semibold text-[#f5f2ee] sm:px-4 sm:py-2 sm:text-[13px]">
-                $99 App &amp; Admin Fee
-              </span>
+              {floorPlansSpecial.badges.map((badge) => (
+                <span
+                  key={badge}
+                  className="rounded-full bg-[#f5f2ee]/15 px-3 py-1 font-[Plus_Jakarta_Sans] text-xs font-semibold text-[#f5f2ee]/90 sm:text-[13px]"
+                >
+                  {badge}
+                </span>
+              ))}
             </div>
           </div>
 
-          {/* Phone */}
           <a
-            href={`tel:${phone.replace(/[^0-9+]/g, "")}`}
-            aria-label={`Call ${siteConfig.name} at ${phone}`}
-            className="inline-flex w-full shrink-0 items-center justify-center gap-2 rounded-full bg-[#f5f2ee] px-5 py-2.5 font-[Plus_Jakarta_Sans] text-[14px] font-bold text-[#a85e48] shadow-[0_2px_12px_rgba(0,0,0,0.14)] transition-transform hover:scale-[1.02] active:scale-[0.98] sm:w-fit sm:px-6"
+            href={floorPlansSpecial.tel}
+            aria-label={`Call Highland Park Apartment Homes at ${floorPlansSpecial.phone}`}
+            className="inline-flex w-fit shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-[#f5f2ee] px-5 py-2.5 font-[Plus_Jakarta_Sans] text-[13px] font-bold text-[#a85e48] shadow-[0_2px_12px_rgba(0,0,0,0.14)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
           >
-            <span aria-hidden="true" className="text-[16px]">
-              ☎
-            </span>
-            {phone}
+            <span aria-hidden="true">☎</span>
+            {floorPlansSpecial.phone}
           </a>
         </div>
 

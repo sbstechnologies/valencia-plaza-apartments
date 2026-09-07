@@ -49,10 +49,10 @@ export default function PromoCardWidget() {
           </button>
         </div>
 
-        {/* Content */}
+        {/* Content Block */}
         <div className="flex flex-col gap-2.5 p-4 pb-4 pt-3.5">
-          {/* Promotion 1 */}
-          <div className="flex items-start gap-2 rounded-[10px] border border-[rgba(224,148,40,0.22)] bg-[rgba(224,148,40,0.08)] px-3 py-2.5">
+          {/* Item Row 1 */}
+          <div className="flex items-start gap-2 rounded-[10px] border border-[rgba(224,148,40,0.22)] bg-[rgba(224,148,40,0.08)] p-2.5 px-3">
             <Sparkles size={13} className="mt-[1px] shrink-0 text-[#E09428]" />
 
             <div>
@@ -65,13 +65,14 @@ export default function PromoCardWidget() {
                 <strong className="font-bold text-[#2D3230]">
                   {PromoCardWidgetConfig.cards[0].highlight}
                 </strong>
+                <br />
                 {PromoCardWidgetConfig.cards[0].suffix}
               </p>
             </div>
           </div>
 
-          {/* Promotion 2 */}
-          <div className="flex items-start gap-2 rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.06)] px-3 py-2.5">
+          {/* Item Row 2 */}
+          <div className="flex items-start gap-2 rounded-[10px] border border-[rgba(30,56,114,0.14)] bg-[rgba(30,56,114,0.06)] p-2.5 px-3">
             <Sparkles size={13} className="mt-[1px] shrink-0 text-[#1E3872]" />
 
             <div>
@@ -80,21 +81,11 @@ export default function PromoCardWidget() {
               </p>
 
               <p className="m-0 mt-[2px] font-['Plus_Jakarta_Sans'] text-[11px] leading-[1.45] text-[#5A6260]">
-                {PromoCardWidgetConfig.cards[1].text}
-                <strong className="font-extrabold text-[#2D3230]">
+                {PromoCardWidgetConfig.cards[1].text} <br />
+                <strong className="font-bold text-[#2D3230]">
                   {PromoCardWidgetConfig.cards[1].highlight}
-                </strong>
-                {PromoCardWidgetConfig.cards[1].suffix}{" "}
-                <strong className="font-extrabold text-[#2D3230]">
-                  {PromoCardWidgetConfig.cards[1].price}
-                </strong>
-                <br />
-                {PromoCardWidgetConfig.cards[1].highlight2 && (
-                  <strong className="font-extrabold text-[#2D3230]">
-                    {PromoCardWidgetConfig.cards[1].highlight2}
-                  </strong>
-                )}
-                {PromoCardWidgetConfig.cards[1].suffix2}
+                </strong>{" "}
+                {PromoCardWidgetConfig.cards[1].suffix}
               </p>
             </div>
           </div>

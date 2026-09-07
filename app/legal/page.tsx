@@ -3,12 +3,12 @@
 import PromoCardWidget from "@/app/components/PromoCardWidget";
 import HeaderOther from "@/app/components/HeaderOther";
 import Footer from "@/app/components/Footer";
-import { siteConfig } from "@/app/config/content";
+import { lookLeaseOffer, siteConfig } from "@/app/config/content";
 import FooterLegalBar from "@/app/components/FooterLegalBar";
 
 import LegalContent from "@/app/components/LegalContent";
 import HousingVoucher from "@/app/components/HousingVoucher";
-import OfferCTA from "../components/OfferCTA";
+import OfferCTA from "@/app/components/OfferCTA";
 
 export default function Contact() {
   return (
@@ -36,9 +36,14 @@ export default function Contact() {
 
       <HousingVoucher />
 
+      {/* ===== OFFER CTA ===== */}
       <OfferCTA
-        phone={siteConfig.phone}
-        tel={`tel:${String(siteConfig.phone).replace(/[^\d+]/g, "")}`}
+        tagline={lookLeaseOffer.tagline}
+        title={lookLeaseOffer.title}
+        subtext={lookLeaseOffer.subtext}
+        highlight={lookLeaseOffer.highlight}
+        buttonText={lookLeaseOffer.buttonText}
+        buttonHref={lookLeaseOffer.buttonHref}
       />
 
       <Footer />

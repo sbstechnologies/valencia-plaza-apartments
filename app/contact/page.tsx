@@ -3,12 +3,12 @@
 import PromoCardWidget from "@/app/components/PromoCardWidget";
 import HeaderOther from "@/app/components/HeaderOther";
 import Footer from "@/app/components/Footer";
-import { siteConfig } from "@/app/config/content";
+import { lookLeaseOffer, siteConfig } from "@/app/config/content";
 import FooterLegalBar from "@/app/components/FooterLegalBar";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 import SendMessage from "@/app/components/SendMessage";
-import OfferCTA from "../components/OfferCTA";
+import OfferCTA from "@/app/components/OfferCTA";
 
 export default function Contact() {
   return (
@@ -215,9 +215,14 @@ export default function Contact() {
         </div>
       </section>
 
+      {/* ===== OFFER CTA ===== */}
       <OfferCTA
-        phone={siteConfig.phone}
-        tel={`tel:${String(siteConfig.phone).replace(/[^\d+]/g, "")}`}
+        tagline={lookLeaseOffer.tagline}
+        title={lookLeaseOffer.title}
+        subtext={lookLeaseOffer.subtext}
+        highlight={lookLeaseOffer.highlight}
+        buttonText={lookLeaseOffer.buttonText}
+        buttonHref={lookLeaseOffer.buttonHref}
       />
 
       <Footer />

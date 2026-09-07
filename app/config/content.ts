@@ -1,4 +1,87 @@
 // ======================================================
+// SITE CONFIG
+// ======================================================
+export const siteConfig = {
+  name: "Valencia Plaza Apartment Homes ",
+  shortName: "Valencia Plaza",
+
+  copyrightYear: "2026",
+
+  address: "7050 John T White Rd, Fort Worth, TX 76120",
+
+  phone: "(817) 446-7470",
+  tel: "tel:+18174467470",
+
+  email: "valenciamanager@livenjoymgt.com",
+  propertyManagerEmail: "valenciamanager@livenjoymgt.com",
+
+  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
+  hours1: "Sat: 10:00 AM – 4:00 PM",
+
+  website: "https://valenciaplazaapts.com",
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VALP?a=1588",
+};
+
+export const lookLeaseSpecial = {
+  id: "look",
+  badge: "LOOK & LEASE SPECIAL",
+  text: "Two-Bedroom Homes Starting at $1,199/mo + $99 App & Admin Fee! Move in by September 30th !",
+};
+
+export const floorPlansSpecial = {
+  id: "floor-plans-special",
+  badge: "LOOK & LEASE SPECIAL",
+  headline: "Special Promotion - Huge Specials",
+  badges: ["2BR from $1,199/mo", "$99 App & Admin Fee"],
+  phone: "(817) 446-7470",
+  tel: "tel:+18174467470",
+};
+
+export const lookLeaseOffer = {
+  id: "look-lease-offer",
+  tagline: "LIMITED TIME OFFER",
+  title: "Look & Lease Special",
+  subtext:
+    "Spacious two-bedroom condo-style apartments starting at $1,199/mo with reduced $99 fees.",
+  highlight: " Must move in by September 30, 2026 !",
+  buttonText: "Call Now: (817) 446-7470",
+  buttonHref: "tel:+18174467470",
+};
+
+// ======================================================
+// PROMOTION
+// ======================================================
+
+export const PromoCardWidgetConfig = {
+  label: "LIMITED TIME",
+  title: "Special Promotion",
+
+  cards: [
+    {
+      title: "Huge Leasing Specials",
+      text: "Two-bedroom floor plans starting at",
+      highlight: " $1,199 per month with $99 application and admin fee.",
+      suffix: "",
+      theme: "orange",
+    },
+    {
+      title: "Contact Us Today",
+      text: "Call us right now for details.",
+      highlight: "Must move in by September 30, 2026.",
+      suffix: "",
+      theme: "blue",
+    },
+  ],
+
+  buttonText: "Apply Now",
+
+  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VALP?a=1588",
+
+  phone: "Call us: (817) 446-7470",
+  phoneLink: "tel:+18174467470",
+};
+
+// ======================================================
 // Valencia Plaza Apartment Homes
 // IMAGE CONFIGURATION
 // ======================================================
@@ -277,30 +360,6 @@ export const images = {
 };
 
 // ======================================================
-// SITE CONFIG
-// ======================================================
-export const siteConfig = {
-  name: "Valencia Plaza Apartment Homes ",
-  shortName: "Valencia Plaza",
-
-  copyrightYear: "2026",
-
-  address: "7050 John T White Rd, Fort Worth, TX 76120",
-
-  phone: "(817) 446-7470",
-  tel: "tel:+18174467470",
-
-  email: "valenciamanager@livenjoymgt.com",
-  propertyManagerEmail: "valenciamanager@livenjoymgt.com",
-
-  hours: "Mon–Fri: 8:30 AM – 5:30 PM",
-  hours1: "Sat: 10:00 AM – 4:00 PM",
-
-  website: "https://valenciaplazaapts.com",
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VALP?a=1588",
-};
-
-// ======================================================
 // UNITS
 // ======================================================
 export const units = [
@@ -356,16 +415,6 @@ export const footerLocation = [
     distance: "7.8 mi",
   },
 ];
-
-// ======================================================
-// LEASE SPECIAL
-// ======================================================
-
-export const lookLeaseSpecial = {
-  id: "look",
-  badge: "LOOK. LEASE. SAVE.",
-  text: "2-Bedroom Floor Plan  starting at $1,199 · $99 App & Admin Fee! Limited Time Offer.",
-};
 
 // ======================================================
 // HEADER
@@ -479,37 +528,6 @@ export const leasePortalConfig = {
   availabilityText: `Prices and availability subject to change · Application fee $50 · Admin fee $100 · Call ${siteConfig.phone}`,
 };
 
-// ======================================================
-// PROMOTION
-// ======================================================
-export const PromoCardWidgetConfig = {
-  label: "Limited Time",
-  title: "Special Promotion",
-
-  cards: [
-    {
-      title: "Look & Lease Special",
-      text: "Exclusive ",
-      highlight: "$99 App & Admin Fee",
-      suffix: " on our spacious 2-bedroom floor plans",
-      theme: "orange",
-    },
-    {
-      title: "Contact Us Today",
-      text: "",
-      highlight: "2 Bedroom",
-      suffix: " Apts Starting At ",
-      price: "$1,199!",
-      highlight2: "Call us now",
-      suffix2: " for offer details!",
-      theme: "blue",
-    },
-  ],
-
-  buttonText: "Apply Now",
-
-  applyLink: "https://livenjoy.myresman.com/Portal/Applicants/New/VALP?a=1588",
-};
 // ======================================================
 // HOME PAGE
 // ======================================================
