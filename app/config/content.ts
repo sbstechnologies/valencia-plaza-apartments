@@ -217,7 +217,7 @@ export const images = {
   amenities2: "/images/amenities/2.webp",
   amenities3: "/images/amenities/3.webp",
   amenities4: "/images/amenities/4.webp",
-  amenities5: "/images/gallery/22.webp",
+  amenities5: "/images/amenities/5.webp",
   amenities6: "/images/amenities/6.webp",
   amenities_alt1:
     "10-foot ceilings and open layouts at Valencia Plaza Apartment Homes ",
