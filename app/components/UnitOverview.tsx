@@ -221,10 +221,10 @@ export default function UnitOverview({
 
   const interiorPhotos = useMemo(
     () => ({
-      "Living Room": images.gallery4,
+      "Living Room": images.gallery9,
       Bedroom: images.gallery10,
-      Kitchen: images.gallery13,
-      Bathroom: images.gallery16,
+      Kitchen: images.gallery4,
+      Bathroom: images.gallery7,
     }),
     [images],
   );
@@ -237,10 +237,10 @@ export default function UnitOverview({
 
   const amenityPhotos = useMemo(
     () => ({
-      Pool: images.gallery1,
-      "Car Parking": images.gallery22,
-      "Green Spaces": images.gallery24,
-      "Intercom Entry": images.gallery20,
+      Pool: images.gallery17,
+      "Car Parking": images.gallery19,
+      "Green Spaces": images.gallery1,
+      "Intercom Entry": images.gallery2,
     }),
     [images],
   );

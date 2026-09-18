@@ -199,8 +199,8 @@ export default function Home() {
         <Header showTopBar={showTopBar} />
 
         <Image
-          src={images.gallery24}
-          alt={images.gallery_alt24}
+          src={images.gallery1}
+          alt={images.gallery_alt1}
           fill
           priority
           quality={100}

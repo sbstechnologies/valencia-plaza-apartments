@@ -111,90 +111,74 @@ export const images = {
   home18: "/images/home/18.webp",
   home19: "/images/home/19.webp",
   home20: "/images/home/20.webp",
-  home21: "/images/home/21.webp",
-  home22: "/images/home/22.webp",
-  home23: "/images/home/23.webp",
-  home24: "/images/home/24.webp",
 
   // ======================================================
   // HOME ALT TEXT
   // ======================================================
 
   // ======================================================
-  // PROPERTY ALT TEXT 1–29
+  // PROPERTY ALT TEXT 1–20
   // ======================================================
 
-  property_alt1:
-    "Swimming pool and clubhouse at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt1:
+    "Leasing office exterior entrance at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt2:
+  gallery_alt2:
     "Residential buildings and landscaped grounds at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt3:
-    "Townhome-style apartment building exterior at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt3:
+    "Resident clubhouse lounge at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt4:
-    "Fenced pet park and green space at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  property_alt5:
-    "Gated pool deck and landscaped courtyard at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  property_alt6:
-    "Community playground at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  property_alt7:
-    "Resident clubhouse and leasing office at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  property_alt8:
+  gallery_alt4:
     "Apartment kitchen with breakfast bar and dishwasher at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt9:
+  gallery_alt5:
     "Apartment kitchen with full appliances at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt10:
-    "Resident clubhouse and leasing office interior at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt6:
+    "Apartment bathroom with extended vanity and dressing mirror at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt11:
+  gallery_alt7:
     "Apartment bathroom with modern vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt12:
-    "Second bedroom with plush carpeting at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt8:
+    "Apartment bathroom with tub, shower, and modern fixtures at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt13:
-    "Apartment bathroom with tub, shower, and vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt9:
+    "Living room with wood-style flooring and fireplace at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt14:
-    "Apartment hallway with hardwood-style vinyl flooring at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt10:
+    "Primary bedroom with ensuite vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt15:
-    "Bedroom with sunny window at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt11:
+    "Bright bedroom with wood-style flooring at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt16:
-    "Apartment kitchen with granite-style countertops at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt12:
+    "Open-concept living room with fireplace at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt17:
-    "Apartment bathroom with tub and shower at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt13:
+    "Carpeted living room with kitchen pass-through at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt18:
-    "Living room with hardwood-style flooring at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt14:
+    "Spacious living area with natural light at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt19:
-    "On-site resident laundry facility at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt15:
+    "Carpeted bedroom with ensuite vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt20:
-    "Resort-style swimming pool at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt16:
+    "Swimming pool with sundeck and courtyard lounge seating at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt21:
-    "Poolside sundeck and lounging area at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt17:
+    "Rooftop-style swimming pool and courtyard with lounge seating at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt22:
-    "Picnic table and BBQ grilling area at Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt18:
+    "Car parking and covered parking spaces at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt23:
-    "Aerial view of Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt19:
+    "Reserved covered parking and landscaped green spaces at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
-  property_alt24:
-    "Aerial view along West Taylor Street near Valencia Plaza Apartment Homes in Fort Worth, Texas",
+  gallery_alt20:
+    "Property aerial view with landscaped grounds at Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
   // ======================================================
   // GALLERY
@@ -224,86 +208,6 @@ export const images = {
   gallery18: "/images/gallery/18.webp",
   gallery19: "/images/gallery/19.webp",
   gallery20: "/images/gallery/20.webp",
-  gallery21: "/images/gallery/21.webp",
-  gallery22: "/images/gallery/22.webp",
-  gallery23: "/images/gallery/23.webp",
-  gallery24: "/images/gallery/24.webp",
-
-  // ======================================================
-  // GALLERY ALT TEXT
-  // ======================================================
-
-  gallery_alt1:
-    "Swimming pool and clubhouse at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt2:
-    "Residential buildings and landscaped grounds at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt3:
-    "Townhome-style building exterior at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt4:
-    "Fenced pet park and green space at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt5:
-    "Gated pool deck and courtyard at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt6:
-    "Community playground at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt7:
-    "Resident clubhouse and leasing office at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt8:
-    "Apartment kitchen with breakfast bar and dishwasher at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt9:
-    "Apartment kitchen with full appliances at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt10:
-    "Resident clubhouse and leasing office interior at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt11:
-    "Apartment bathroom with modern vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt12:
-    "Second bedroom with plush carpeting at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt13:
-    "Apartment bathroom with tub, shower, and vanity at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt14:
-    "Apartment hallway with hardwood-style vinyl flooring at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt15:
-    "Bedroom with sunny window at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt16:
-    "Apartment kitchen with granite-style countertops at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt17:
-    "Apartment bathroom with tub and shower at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt18:
-    "Living room with hardwood-style flooring at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt19:
-    "On-site resident laundry facility at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt20:
-    "Resort-style swimming pool at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt21:
-    "Poolside sundeck and lounging area at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt22:
-    "Picnic table and BBQ grilling area at Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt23:
-    "Aerial view of Valencia Plaza Apartment Homes in Fort Worth, Texas",
-
-  gallery_alt24:
-    "Aerial view along West Taylor Street near Valencia Plaza Apartment Homes in Fort Worth, Texas",
 
   // ======================================================
   // AMENITIES
@@ -776,17 +680,17 @@ export const plans = {
 } as const;
 
 export const interiorPhotos = {
-  "Living Room": images.gallery4,
+  "Living Room": images.gallery9,
   Bedroom: images.gallery10,
-  Kitchen: images.gallery13,
-  Bathroom: images.gallery16,
+  Kitchen: images.gallery4,
+  Bathroom: images.gallery7,
 } as const;
 
 export const amenityPhotos = {
-  Pool: images.gallery1,
-  "Car Parking": images.gallery22,
-  "Green Spaces": images.gallery24,
-  "Intercom Entry": images.gallery20,
+  Pool: images.gallery17,
+  "Car Parking": images.gallery19,
+  "Green Spaces": images.gallery1,
+  "Intercom Entry": images.gallery2,
 } as const;
 
 export const defaultPreviewImg = images.home14;
@@ -846,7 +750,7 @@ export const floorPlans: FloorPlan[] = [
       "+2 more",
     ],
     images: [images.floor1],
-    interiorImages: [images.gallery13, images.gallery15, images.gallery16],
+    interiorImages: [images.gallery4, images.gallery6, images.gallery7],
     tour: "https://my.matterport.com/show/?m=PrGMcKR4S2j&play=1",
   },
 
@@ -871,7 +775,7 @@ export const floorPlans: FloorPlan[] = [
       "+2 more",
     ],
     images: [images.floor2],
-    interiorImages: [images.gallery10, images.gallery11, images.gallery12],
+    interiorImages: [images.gallery9, images.gallery14, images.gallery15],
     tour: "https://my.matterport.com/show/?m=3Fjr8m6bq5V&play=1",
   },
 ];
@@ -890,144 +794,146 @@ export type GalleryItem = {
 
 export const gallery: GalleryItem[] = [
   // ======================================================
-  // GALLERY 1–3 — AMENITIES & EXTERIORS
+  // GALLERY 1 — EXTERIORS
   // ======================================================
-
   {
     src: images.gallery1,
-    name: "Swimming Pool & Sundeck",
-    alt: "Swimming pool and sundeck",
-    category: "Amenities",
+    name: " Landscaped Community Building",
+    alt: " Landscaped Community Building",
+    category: "Exteriors",
   },
   {
     src: images.gallery2,
-    name: "Community Exterior & Landscaping",
-    alt: "Community exterior and landscaping",
-    category: "Exteriors",
-  },
-
-  // ======================================================
-  // GALLERY 4–18 — INTERIORS
-  // ======================================================
-
-  {
-    src: images.gallery4,
-    name: "Carpeted Living Room & Patio Entry",
-    alt: "Carpeted living room and patio entry",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery5,
-    name: "Living Room with Fireplace & Pass-Through",
-    alt: "Living room with fireplace and pass-through",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery6,
-    name: "Bathroom Vanity & Dressing Mirror",
-    alt: "Bathroom vanity and dressing mirror",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery7,
-    name: "Galley Kitchen with Black Appliances",
-    alt: "Galley kitchen with black appliances",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery8,
-    name: "Kitchen Countertops & Range",
-    alt: "Kitchen countertops and range",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery9,
-    name: "Dining Area & Patio Door",
-    alt: "Dining area and patio door",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery10,
-    name: "Spacious Bedroom with Window",
-    alt: "Spacious bedroom with window",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery11,
-    name: "Wood-Style Living Room with Fireplace",
-    alt: "Wood-style living room with fireplace",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery12,
-    name: "Open-Concept Living & Dining Room",
-    alt: "Open-concept living and dining room",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery13,
-    name: "Upgraded Kitchen with Granite Countertops",
-    alt: "Upgraded kitchen with granite countertops",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery14,
-    name: "Living Area & Kitchen Pass-Through",
-    alt: "Living area and kitchen pass-through",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery15,
-    name: "Wood-Style Living Room & Patio View",
-    alt: "Wood-style living room and patio view",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery16,
-    name: "Modern Bathroom & Shower Suite",
-    alt: "Modern bathroom and shower suite",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery17,
-    name: "Modern Bedroom with Wood-Style Floors",
-    alt: "Modern bedroom with wood-style floors",
-    category: "Interiors",
-  },
-  {
-    src: images.gallery18,
-    name: "Living Room & Breakfast Nook",
-    alt: "Living room and breakfast nook",
-    category: "Interiors",
-  },
-
-  // ======================================================
-  // GALLERY 19–23 — EXTERIORS
-  // ======================================================
-
-  {
-    src: images.gallery20,
     name: "Leasing Office Exterior Entrance",
     alt: "Leasing office exterior entrance",
     category: "Exteriors",
   },
+
+  // ======================================================
+  // GALLERY 2 — AMENITIES
+  // ======================================================
   {
-    src: images.gallery21,
-    name: "Covered Carports & Building Exterior",
-    alt: "Covered carports and building exterior",
-    category: "Exteriors",
+    src: images.gallery3,
+    name: "Resident Clubhouse Lounge",
+    alt: "Resident clubhouse lounge",
+    category: "Amenities",
+  },
+
+  // ======================================================
+  // GALLERY 3–15 — INTERIORS
+  // ======================================================
+  {
+    src: images.gallery4,
+    name: "Modern Kitchen with Granite Countertops",
+    alt: "Modern kitchen with granite countertops",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery5,
+    name: "Contemporary Kitchen & Black Appliances",
+    alt: "Contemporary kitchen with black appliances",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery6,
+    name: "Extended Bathroom Vanity & Dressing Mirror",
+    alt: "Extended bathroom vanity and dressing mirror",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery7,
+    name: "Modern Bath & Granite Vanity",
+    alt: "Modern bathroom with granite vanity",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery8,
+    name: "Upgraded Full Bath & Modern Fixtures",
+    alt: "Upgraded full bathroom with modern fixtures",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery9,
+    name: "Wood-Style Living Room with Fireplace",
+    alt: "Wood-style living room with fireplace",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery10,
+    name: "Primary Bedroom with Ensuite Vanity",
+    alt: "Primary bedroom with ensuite vanity",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery11,
+    name: "Bright Bedroom with Wood-Style Flooring",
+    alt: "Bright bedroom with wood-style flooring",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery12,
+    name: "Open-Concept Living Room & Fireplace",
+    alt: "Open-concept living room with fireplace",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery13,
+    name: "Carpeted Living Room & Kitchen Pass-Through",
+    alt: "Carpeted living room and kitchen pass-through",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery14,
+    name: "Spacious Living Area with Natural Light",
+    alt: "Spacious living area with natural light",
+    category: "Interiors",
+  },
+
+  {
+    src: images.gallery15,
+    name: "Carpeted Bedroom with Ensuite Vanity",
+    alt: "Carpeted bedroom with ensuite vanity",
+    category: "Interiors",
   },
   {
-    src: images.gallery22,
-    name: "Resident Carports & Parking Lot",
-    alt: "Resident carports and parking lot",
-    category: "Exteriors",
+    src: images.gallery16,
+    name: "Swimming Pool and Sundeck with Courtyard Lounge Seating",
+    alt: "Swimming Pool and Sundeck with Courtyard Lounge Seating",
+    category: "Amenities",
   },
   {
-    src: images.gallery23,
-    name: "Landscaped Community Building",
-    alt: "Landscaped community building",
-    category: "Exteriors",
+    src: images.gallery17,
+    name: "Restaurant Style Swimming Pool & Courtyard with Lounge Seating",
+    alt: "Restaurant Style swimming pool & courtyard with lounge seating",
+    category: "Amenities",
+  },
+  {
+    src: images.gallery18,
+    name: "Car Parking  and Covered Spaces",
+    alt: "Car parking and covered spaces",
+    category: "Amenities",
+  },
+  {
+    src: images.gallery19,
+    name: "Reserved Covered Parking and Green Spaces",
+    alt: "Reserved covered parking and green spaces",
+    category: "Amenities",
+  },
+  {
+    src: images.gallery20,
+    name: "Property Ariel View with Landscaped Grounds",
+    alt: "Property Ariel view with landscaped grounds",
+    category: "Neighborhood",
   },
 ];
 // ======================================================
