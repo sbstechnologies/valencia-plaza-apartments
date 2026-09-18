@@ -400,19 +400,18 @@ export const tourSlots = [
 // ======================================================
 // FOOTER LOCATION
 // ======================================================
-
 export const footerLocation = [
   {
-    label: "Cobblestone Trail Park",
-    distance: "1.6 mi",
+    label: "Fairview Park",
+    distance: "1.1 mi",
   },
   {
-    label: "Eastchase Shopping Center",
-    distance: "2.3 mi",
+    label: "Downtown Fort Worth",
+    distance: "2.1 mi",
   },
   {
-    label: "AT&T Stadium / Arlington District",
-    distance: "7.8 mi",
+    label: "Fort Worth Town Center",
+    distance: "2.8 mi",
   },
 ];
 
@@ -730,7 +729,7 @@ export const homePageConfig = {
       alt: images.blog_alt1,
       category: "Local Eats",
       time: "4 min",
-      author: "Valencia Plaza Apartment Homes Team",
+      author: "Valencia Plaza Team",
       date: "",
       title: "Must-Try Dining & Local Flavors in Fort Worth",
       desc: "Discover local dining favorites, Texas-inspired flavors, and diverse restaurants near Valencia Plaza Apartment Homes in Fort Worth, Texas.",
@@ -1056,7 +1055,7 @@ export const posts: Post[] = [
     category: "Outdoors",
     readTime: "5 min",
     initials: "VP",
-    author: "Valencia Plaza Apartment Homes Team",
+    author: "Valencia Plaza Team",
     date: "",
 
     title: "Exploring Cobblestone Trail & Local Fort Worth Parks",
@@ -1081,7 +1080,7 @@ export const posts: Post[] = [
     category: "Outdoors",
     readTime: "4 min",
     initials: "VP",
-    author: "Valencia Plaza Apartment Homes Team",
+    author: "Valencia Plaza Team",
     date: "",
 
     title: "Quick Escapes Trinity Trails & Lake Arlington",
@@ -1106,7 +1105,7 @@ export const posts: Post[] = [
     category: "Local Life",
     readTime: "4 min",
     initials: "VP",
-    author: "Valencia Plaza Apartment Homes Team",
+    author: "Valencia Plaza Team",
     date: "",
 
     title: "Sundance Square to Arlington Entertainment",
@@ -1131,7 +1130,7 @@ export const posts: Post[] = [
     category: "Apartment Living",
     readTime: "5 min",
     initials: "VP",
-    author: "Valencia Plaza Apartment Homes Team",
+    author: "Valencia Plaza Team",
     date: "",
 
     title: "The Perks of Condo-Style Living at Valencia Plaza",
@@ -1156,7 +1155,7 @@ export const posts: Post[] = [
     category: "Local Life",
     readTime: "4 min",
     initials: "VP",
-    author: "Valencia Plaza Apartment Homes Team",
+    author: "Valencia Plaza Team",
     date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Fort Worth",
@@ -1184,7 +1183,7 @@ export const featuredPost: Post = {
   category: "Local Eats",
   readTime: "4 min",
   initials: "VP",
-  author: "Valencia Plaza Apartment Homes Team",
+  author: "Valencia Plaza Team",
   date: "",
 
   title: "Must-Try Dining & Local Flavors in East Fort Worth",
@@ -1216,7 +1215,7 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "VP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "Must-Try Dining & Local Flavors in East Fort Worth",
@@ -1234,7 +1233,7 @@ export const articles = [
     readTime: "5 min",
     authorInitials: "VP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "Exploring Cobblestone Trail & Local Fort Worth Parks",
@@ -1252,7 +1251,7 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "VP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "Quick Escapes Trinity Trails & Lake Arlington",
@@ -1270,7 +1269,7 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "VP",
     authorBg: "bg-[#E09428]/10 text-[#E09428]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "Sundance Square to Arlington Entertainment",
@@ -1288,7 +1287,7 @@ export const articles = [
     readTime: "5 min",
     authorInitials: "VP",
     authorBg: "bg-[#2a5a8f]/10 text-[#2a5a8f]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "The Perks of Condo-Style Living at Valencia Plaza",
@@ -1306,7 +1305,7 @@ export const articles = [
     readTime: "4 min",
     authorInitials: "VP",
     authorBg: "bg-[#1E3872]/10 text-[#1E3872]",
-    authorName: "Valencia Plaza Apartment Homes Team",
+    authorName: "Valencia Plaza Team",
     date: "",
 
     title: "Top Coffee Spots & Work Cafés Around Fort Worth",

@@ -277,21 +277,20 @@ export default function Footer() {
               >
                 LOCATION
               </h4>
-
               {/* MAP */}
               <div className="rounded-[24px] overflow-hidden h-[220px] border border-white/10">
                 <iframe
                   src={`https://www.google.com/maps?q=${encodeURIComponent(
-                    "Valencia Plaza Apartment Homes , 7050 John T White Rd, Fort Worth, TX 76120",
-                  )}&output=embed`}
+                    "Valencia Plaza Apartment Homes, 7050 John T White Rd, Fort Worth, TX 76120",
+                  )}&output=embed&zoom=15`}
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
                   loading="lazy"
                   allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Valencia Plaza Apartment Homes , FORT WORTH Texas"
-                  className="w-full"
+                  title="Valencia Plaza Apartment Homes, Fort Worth, Texas"
+                  className="w-full h-full"
                 />
               </div>
 
