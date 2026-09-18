@@ -64,9 +64,9 @@ export default function Footer() {
 
               {/* DESCRIPTION */}
               <p className="text-[15px] leading-[1.9] text-[#8e99ad] mb-8 font-[Plus_Jakarta_Sans]">
-                Spacious 2 bedroom condo-style apartment homes and quiet
-                residential living crafted for comfortable, connected living in
-                Fort Worth, TX.
+                Spacious 2 bedroom condo-style apartment homes<br></br> and
+                quiet residential living crafted for comfortable, connected
+                living in Fort Worth, TX.
               </p>
 
               {/* CONTACT */}
