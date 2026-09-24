@@ -197,8 +197,8 @@ export default function Contact() {
 
                 <div className="mt-6">
                   <p className="text-sm font-semibold text-gray-700 md:text-xl">
-                    Our Valencia Plaza Park leasing team will quickly reach back
-                    to you!
+                    Our Valencia Plaza leasing team will quickly reach back to
+                    you!
                   </p>
 
                   <p className="mt-3 text-sm text-gray-500 md:text-base">
