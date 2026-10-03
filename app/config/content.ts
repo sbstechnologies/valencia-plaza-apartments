@@ -25,7 +25,7 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Two-Bedroom Homes Starting at $1,199/mo + $99 App & Admin Fee! Move in by September 30th !",
+  text: "Two-Bedroom Homes Starting at $1,199/mo + $99 App & Admin Fee! Move in by October 31, 2026!",
 };
 
 export const floorPlansSpecial = {
@@ -43,7 +43,7 @@ export const lookLeaseOffer = {
   title: "Look & Lease Special",
   subtext:
     "Spacious two-bedroom condo-style apartments starting at $1,199/mo with reduced $99 fees.",
-  highlight: " Must move in by September 30, 2026 !",
+  highlight: " Must move in by October 31, 2026!",
   buttonText: "Call Now: (817) 446-7470",
   buttonHref: "tel:+18174467470",
 };
@@ -67,7 +67,7 @@ export const PromoCardWidgetConfig = {
     {
       title: "Contact Us Today",
       text: "Call us right now for details.",
-      highlight: "Must move in by September 30, 2026.",
+      highlight: "Must move in by October 31, 2026.",
       suffix: "",
       theme: "blue",
     },
