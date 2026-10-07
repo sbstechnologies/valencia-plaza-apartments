@@ -46,7 +46,7 @@ import { ShieldCheck, Flame, Car, DoorOpen } from "lucide-react";
 
 import FooterLegalBar from "@/app/components/FooterLegalBar";
 import TourScheduler from "@/app/components/TourScheduler";
-import HousingVoucher from "@/app/components/HousingVoucher";
+
 import UnitOverview from "@/app/components/UnitOverview";
 
 export default function Home() {
@@ -1043,8 +1043,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <HousingVoucher />
 
       {/* ================= LEASING CTA ================= */}
       <section
