@@ -25,14 +25,14 @@ export const siteConfig = {
 export const lookLeaseSpecial = {
   id: "look",
   badge: "LOOK & LEASE SPECIAL",
-  text: "Two-Bedroom Homes Starting at $1,199/mo + $99 App & Admin Fee! Move in by October 31, 2026!",
+  text: "Two-Bedroom Homes Starting at $1,299/mo + $99 App & Admin Fee! Move in by October 31, 2026!",
 };
 
 export const floorPlansSpecial = {
   id: "floor-plans-special",
   badge: "LOOK & LEASE SPECIAL",
   headline: "Special Promotion - Huge Specials",
-  badges: ["2BR from $1,199/mo", "$99 App & Admin Fee"],
+  badges: ["2BR from $1,299/mo", "$99 App & Admin Fee"],
   phone: "(817) 446-7470",
   tel: "tel:+18174467470",
 };
@@ -42,7 +42,7 @@ export const lookLeaseOffer = {
   tagline: "LIMITED TIME OFFER",
   title: "Look & Lease Special",
   subtext:
-    "Spacious two-bedroom condo-style apartments starting at $1,199/mo with reduced $99 fees.",
+    "Spacious two-bedroom condo-style apartments starting at $1,299/mo with reduced $99 fees.",
   highlight: " Must move in by October 31, 2026!",
   buttonText: "Call Now: (817) 446-7470",
   buttonHref: "tel:+18174467470",
@@ -60,7 +60,7 @@ export const PromoCardWidgetConfig = {
     {
       title: "Huge Leasing Specials",
       text: "Two-bedroom floor plans starting at",
-      highlight: " $1,199 per month with $99 application and admin fee.",
+      highlight: " $1,299 per month with $99 application and admin fee.",
       suffix: "",
       theme: "orange",
     },
@@ -271,7 +271,7 @@ export const units = [
     name: "2x2",
     label: "2 BR · 2 BA",
     area: "1,000 sq ft",
-    price: "$1,199/mo",
+    price: "$1,299/mo",
     beds: 2,
     baths: 2,
     deposit: "$250",
@@ -282,7 +282,7 @@ export const units = [
     name: "2x2-den",
     label: "2 BR · 2 BA + Den",
     area: "1,250 sq ft",
-    price: "$1,395/mo",
+    price: "$1,399/mo",
     beds: 2,
     baths: 2,
     deposit: "$350",
@@ -392,7 +392,7 @@ export const leasePortalConfig = {
       code: "2x2",
       label: "2 BR · 2 BA",
       area: "1,000 sq ft",
-      price: "$1,199/mo",
+      price: "$1,299/mo",
       beds: 2,
       baths: 2,
       deposit: "$250",
@@ -403,7 +403,7 @@ export const leasePortalConfig = {
       code: "2x2-den",
       label: "2 BR · 2 BA + Den",
       area: "1,250 sq ft",
-      price: "$1,395/mo",
+      price: "$1,399/mo",
       beds: 2,
       baths: 2,
       deposit: "$350",
@@ -425,8 +425,8 @@ export const leasePortalConfig = {
 
   unitTabs: {
     all: "All Homes",
-    "2bed": "2 Bedrooms · From $1,199/mo",
-    "2bed-den": "2 Bedrooms + Den · $1,395/mo",
+    "2bed": "2 Bedrooms · From $1,299/mo",
+    "2bed-den": "2 Bedrooms + Den · $1,399/mo",
   },
   availabilityText: `Prices and availability subject to change · Application fee $50 · Admin fee $100 · Call ${siteConfig.phone}`,
 };
@@ -662,7 +662,7 @@ export const homePageConfig = {
 export const plans = {
   "2x2": {
     title: "2x2 · 2 Bedrooms · 2 Baths",
-    price: "$1,199/mo",
+    price: "$1,299/mo",
     area: "1,000 sq ft",
     img: images.floor1,
     bed: "2 Bedrooms",
@@ -671,7 +671,7 @@ export const plans = {
 
   "2x2-den": {
     title: "2x2 - Den · 2 Bedrooms · 2 Baths",
-    price: "$1,395/mo",
+    price: "$1,399/mo",
     area: "1,250 sq ft",
     img: images.floor2,
     bed: "2 Bedrooms + Den",
@@ -739,7 +739,7 @@ export const floorPlans: FloorPlan[] = [
     beds: "2 Bedrooms",
     baths: "2 Baths",
     area: "1,000",
-    price: "$1,199/mo",
+    price: "$1,299/mo",
     available: "4 Units Available",
     popular: false,
     tags: [
@@ -763,7 +763,7 @@ export const floorPlans: FloorPlan[] = [
     beds: "2 Bedrooms + Den",
     baths: "2 Baths",
     area: "1,250",
-    price: "$1,395/mo",
+    price: "$1,399/mo",
     available: "2 Units Available",
     popular: true,
 
